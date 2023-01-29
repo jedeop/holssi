@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+#workspace {
+  min-width: unset !important;
+}
+#entryCanvas {
+  height: 100% !important;
+  width: 100% !important;
+}
+.entryEngineMinimize, .entryRunButtonBigMinimize {
+  display: none;
+}
